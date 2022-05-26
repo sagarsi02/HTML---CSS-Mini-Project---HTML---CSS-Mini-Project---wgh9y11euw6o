@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Web Page Title -->
+    <title>HTML CSS Mini Project</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header id="head">
+        <div id="logo-sec">
+            <a href="#" class="logo-url">
+                <img src="logo.svg" class="logo-img" alt="logo">
+                <b class="logo-name">Newton</b>
+                <span class="logo-sch">School</span>
+            </a>
+        </div>
+        <div id="profile-sec">
+            <ul class="profile-ul">
+                <li class="profile-li"><a href="#" class="refer">Refer a friend</a></li>
+                <li class="profile-li"><a href="#" class="users"><i class="fa-solid fa-users"></i></a></li>
+                <li class="profile-li"><a href="#" class="notify"><i class="fa-solid fa-bell"></i></a></li>
+                <li class="profile-li">
+                    <div class="dropdown">
+                        <span class="logo-down">
+                            <img class="user-img" src="user.jpeg" alt="User">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                        <div class="dropdown-content">
+                            <p>Hello World!</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- Navbar Section End -->
+
+    <hr>
+    <!-- Dashboard Section -->
+    <section id="dash">
+        <div class="dashboard">
+            <div class="dash-logos">
+                <img src="user.jpeg" class="dash-logo" alt="Logo">
+            </div>
+            <div class="name-user">
+                <a href="#">
+                    <div class="profile-title">Sagar Singh</div>
+                    <div class="profile-user">sagarsingh802183</div>
+                </a>
+            </div>
+        </div>
+        <div class="nav-tab">
+            <button type="button" class="tab-button active">Tracks</button>
+            <button type="button" class="tab-button">Playground</button>
+            <button type="button" class="tab-button">Contests</button>
+        </div>
+        <hr>
+        <div id="track">
+            <div class="tracks">
+                <div class="track-title">Your tracks</div>
+                <!-- Table Section -->
+                <table class="track-table">
+                    <thead>
+                        <tr>
+                            <th class="thead-th">Track Name</th>
+                            <th class="thead-th">Starts from</th>
+                            <th class="thead-th">Status</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">Full-Stack Web Development - December 2021 - Django</a></td>
+                            <td>Dec 20, 2021 9:00 PM</td>
+                            <td><button type="button" class="classess">Income sharing agreement signed</button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Full-Stack Web Development - December 2021 - Neutron</a></td>
+                            <td>Dec 20, 2021 9:00 PM</td>
+                            <td><button type="button" class="classess">Income sharing agreement signed</button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Beginner's guide to Data Structures and Algorithms ( in JAVA ) by Vipul Chakravarthy</a></td>
+                            <td>-</td>
+                            <td><button type="button" class="course">Open Course Started</button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Newton School's Introduction to Java Programming</a></td>
+                            <td>-</td>
+                            <td><button type="button" class="course">Open Course Started</button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Newton's Grand Coding Contest 2022</a></td>
+                            <td>Mar 31, 2022 9:00 PM</td>
+                            <td><button type="button" class="contest">Completed</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="load-more">Load More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Courses Section -->
+    <section id="track">
+        <div class="course-track">
+            <div class="course-title">More Tracks</div>
+            <div class="course-grid">
+                <div class="course-box">
+                    <div class="course-name">Masters Degree</div>
+                    <div class="course-card">
+                        <div>
+                            <span>Course time: </span>
+                            <span>12 Months</span>
+                        </div>
+                        <div>
+                            <span>Eligibility: </span>
+                            <span>Bachelors Degree (3yr) with 2 yrs of work experience or Bachelors Degree(4yr) with 1 yr of work experience</span>
+                        </div>
+                        <div>
+                            <div class="application-label">Application Open</div>
+                        </div>
+                        <div class="class-date">Starting soon</div>
+                        <div>
+                            <button type="button" class="select-btn">Apply</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box dark-card">
+                    <div class="course-name">Full-Stack Web Development - April 2022</div>
+                    <div class="course-card">
+                        <!-- <div>
+                            <span>Course time: </span>
+                            <span>12 Months</span>
+                        </div> -->
+                        <div>
+                            <span>Eligibility: </span>
+                            <span>Beginner, Guaranteed Job b/w 5-40 LPA at ₹ 0 Upfront Fees</span>
+                        </div>
+                        <div>
+                            <div class="application-label">Application Open</div>
+                        </div>
+                        <div class="class-date">Classes from Apr 25, 2022 9:00 PM</div>
+                        <div>
+                            <button type="button" class="select-btn">Apply</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-name">Newton's coding challenge April 2022</div>
+                    <div class="course-card">
+                        <!-- <div>
+                            <span>Course time: </span>
+                            <span>12 Months</span>
+                        </div> -->
+                        <div>
+                            <span>Eligibility: </span>
+                            <span>Beginner</span>
+                        </div>
+                        <div>
+                            <div class="application-label">Application Open</div>
+                        </div>
+                        <div class="class-date">Starts from Apr 29, 2022 9:00 PM</div>
+                        <div>
+                            <button type="button" class="select-btn">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
